@@ -1,31 +1,22 @@
-tap "azure/bicep", trusted: true
-tap "hashicorp/tap", trusted: true
-
 brew "ansible"
 brew "azure-cli"
-brew "bicep"
-brew "gh"
-brew "hashicorp/tap/terraform"
+brew "fastfetch"
+brew "opentofu"
 brew "kubernetes-cli"
-brew "mas"
 brew "minikube"
 brew "oh-my-posh"
 brew "python@3.14"
 brew "powershell"
-
+ 
 cask "amethyst"
+cask "betterdisplay"
 cask "bitwarden"
 cask "discord"
-cask "docker-desktop"
 cask "firefox"
 cask "ghostty"
-cask "github"
 cask "obsidian"
 cask "signal"
 cask "spotify"
+cask "tuta-mail"
 cask "visual-studio-code"
 cask "whatsapp"
-
-mas "keynote", id: 361285480
-mas "numbers", id: 361304891
-mas "pages", id: 361309726
