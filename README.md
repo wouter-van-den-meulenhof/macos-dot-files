@@ -1,6 +1,6 @@
 # MacOS dot- & configuration files
 
-Personal collection of dot- and configuration files I use when configuring a new MacBook.
+Personal collection of dot- and configuration files that I use when configuring a new MacBook.
 
 ## Description
 
