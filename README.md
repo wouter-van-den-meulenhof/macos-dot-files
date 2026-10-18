@@ -1,16 +1,14 @@
-# Workstation dot- & configuration files
+# MacOS dot- & configuration files
 
-Personal collection of dot- and configuration files to be used when configuring a new workstation.
+Personal collection of dot- and configuration files that I use when configuring a new MacBook.
 
 ## Description
 
-This repository contains a collection of dot- and configuration files that I use when configuring a new workstation. It is split across the different operating systems and platforms that I (am sometimes forced to) use. Please note that this repository is intentionally opinionated and tailored to my specific workflow.
+This repository contains a collection of dot- and configuration files that I use when configuring a new MacBook. Please note that this repository is intentionally opinionated and tailored to my specific workflow.
 
 ### Files
 
-#### MacOS
-
-On MacOS I use the `homebrew` package manager to install and update the software. My preferred text editor is `Vim` and `Ghostty` is usually my terminal of choice. The files in the `/macos` directory contain the configuration files for these apps.
+I use the `homebrew` package manager to install and update the software. My preferred text editor is `Vim` and `Ghostty` is my terminal emulator of choice. The files in the `/macos` directory contain the configuration files for these apps.
 
 | File | Path | Description |
 | --- | --- | --- |
@@ -26,9 +24,7 @@ On MacOS I use the `homebrew` package manager to install and update the software
 
 ## Usage
 
-### MacOS
-
-First install [homebrew](https://brew.sh/) by running their installation script. 
+First install [homebrew](https://brew.sh/) by running their installation script.
 
 Then, extract the contents of the `/macos` directory verbatim to the root of your home home directory by running the following one liner (note that MacOS ships with jq installed by default):
 
@@ -44,7 +40,9 @@ Finally, run the following command to install tools and apps:
 brew bundle --file="~/Brewfile"
 ```
 
-After installing and configuring the software, follow [beerisgood's](https://github.com/beerisgood) [MacOS hardening guide](https://github.com/beerisgood/macOS_Hardening) and apply the recommended hardenings, bar the one telling you not to use Homebrew.
+After installing and running the bundle command, follow [beerisgood's](https://github.com/beerisgood) [MacOS hardening guide](https://github.com/beerisgood/macOS_Hardening) and apply the recommended hardenings, bar the one telling you not to use Homebrew.
+
+Lastly I install Podman using the (recommended) Installer method. It kan be found on the Podman project's [website](https://podman.io/docs/installation).
 
 ## Author
 
